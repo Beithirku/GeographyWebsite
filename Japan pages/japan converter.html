@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<hmtl>
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <title>Japan</title>
+
+  </head>
+
+
+  <body onload="startTime()">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="../Home.html">
+        </a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+
+            <li><a href="../home.html">Home</a></li>
+            <li class="dropdown">
+              <a href="../japan.html" class="dropdown-toggle" data-toggle="dropdown">Japan<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="../japan.html">Japan</a></li>
+                <li class="active"><a href="japan converter.html">Currency converter</a></li>
+                <li><a href="japan quiz.html">Quiz</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="../canada.html" class="dropdown-toggle" data-toggle="dropdown">Canada<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="../canada.html">Canada</a></li>
+                <li><a href="../Canada Pages/canada converter.html">Currency converter</a></li>
+                <li><a href="../Canada Pages/canada quiz.html">Quiz</a></li>
+              </ul>
+              <li class="dropdown">
+                <a href="../slovenia.html" class="dropdown-toggle" data-toggle="dropdown">Slovenia<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="../slovenia.html">Slovenia</a></li>
+                  <li><a href="../Slovenia Pages/slovenia converter.html">Currency converter</a></li>
+                  <li><a href="../Slovenia Pages/slovenia quiz.html">Quiz</a></li>
+                </ul>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <div id="holder">
+      <header>
+      </header>
+
+
+      <div id="body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <center>
+                <h3>Japan Converter</h3></center>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6"><img src="../Japan Media/JPY.png" class="img-responsive" alt="a neon lit alley in Japan."></div>
+            <div class="col-lg-6" id="con">
+              <p>The Yen is the official currency of Japan. It is the third most traded currency in the foreign exchange market after the United States dollar and the euro. It is also widely used as a reserve currency after the U.S. dollar, the euro, and
+                the pound sterling.
+                <p>Following World War II the yen lost much of its prewar value. To stabilize the Japanese economy the exchange rate of the yen was fixed at ¥360 per $1 as part of the Bretton Woods system. When that system was abandoned in 1971, the yen
+                  became undervalued and was allowed to float. The yen had appreciated to a peak of ¥271 per $1 in 1973, then underwent periods of depreciation and appreciation due to the 1973 oil crisis, arriving at a value of ¥227 per $1 by 1980.
+
+                  <p>Since 1973, the Japanese government has maintained a policy of currency intervention, and the yen is therefore under a "dirty float" regime. This intervention continues to this day. The Japanese government focuses on a competitive export
+                    market, and tries to ensure a low yen value through a trade surplus. The Plaza Accord of 1985 temporarily changed this situation from its average of ¥239 per US$1 in 1985 to ¥128 in 1988 and led to a peak value of ¥80 against the U.S.
+                    dollar in 1995, effectively increasing the value of Japan’s GDP to almost that of the United States. Since that time, however, the yen has greatly decreased in value. The Bank of Japan maintains a policy of zero to near-zero interest
+                    rates and the Japanese government has an extreme anti-inflation policy.
+
+
+                    <center>
+                      <form name="converter">
+                        <table border="0">
+                          <tr>
+                            <td>British Pound:</td>
+                            <td><input type="text" name="pound" onChange="poundConverter()" /></td>
+                          </tr>
+                          <tr>
+                            <td>Japanese Yen: </td>
+                            <td><input type="text" name="yen" onChange="yenConverter()" /></td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" align="center"><input type="button" value="Convert!" /></td>
+                          </tr>
+                        </table>
+                      </form>
+                    </center>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer-distributed">
+
+        <div class="footer-right">
+
+          <div id="time"></div>
+
+        </div>
+
+        <div class="footer-left">
+
+          <p class="footer-links">
+            <a href="../home.html">Home</a> ·
+            <a href="../japan.html">Japan</a> ·
+            <a href="../canada.html">Canada</a> ·
+            <a href="../slovenia.html">Slovenia</a>
+          </p>
+
+          <p>Orkux &copy; 2017</p>
+        </div>
+
+      </footer>
+    </div>
+
+    <script src="../js/customjapan.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+  </body>
+
+
+</hmtl>

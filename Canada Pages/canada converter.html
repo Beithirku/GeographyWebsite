@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<hmtl>
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <title>Canada</title>
+
+  </head>
+
+
+  <body onload="startTime()">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="../home.html">
+        </a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+
+            <li><a href="../home.html">Home</a></li>
+            <li class="dropdown">
+              <a href="../japan.html" class="dropdown-toggle" data-toggle="dropdown">Japan<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="../japan.html">Japan</a></li>
+                <li><a href="../Japan pages/japan converter.html">Currency converter</a></li>
+                <li><a href="../Japan pages/japan quiz.html">Quiz</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="../canada.html" class="dropdown-toggle" data-toggle="dropdown">Canada<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="../canada.html">Canada</a></li>
+                <li class="active"><a href="../Canada Pages/canada converter.html">Currency converter</a></li>
+                <li><a href="../Canada Pages/canada quiz.html">Quiz</a></li>
+              </ul>
+              <li class="dropdown">
+                <a href="../slovenia.html" class="dropdown-toggle" data-toggle="dropdown">Slovenia<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="../slovenia.html">Slovenia</a></li>
+                  <li><a href="../Slovenia Pages/slovenia converter.html">Currency converter</a></li>
+                  <li><a href="../Slovenia Pages/slovenia quiz.html">Quiz</a></li>
+                </ul>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <div id="holder">
+      <header>
+      </header>
+
+
+      <div id="body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <center>
+                <h3>Canada Converter</h3></center>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6"><img src="../Canada Media/Canadian Dollar.png" class="img-responsive" alt="A beautiful mountain view in Canada."></div>
+              <div class="col-lg-6"><center>
+                <p>The Canadian dollar  It is abbreviated with the dollar sign $, or sometimes Can$ or C$ to distinguish it from other dollar-denominated currencies. It is divided into 100 cents.
+
+                <p>Owing to the image of a loon on the one-dollar coin, the currency is sometimes referred to as the loonie by foreign exchange traders and analysts, as it is by Canadians in general, or huard in French.
+
+                <p>Canada's dollar is the fifth most held reserve currency in the world, accounting for approximately 2% of all global reserves, behind only the U.S. dollar, the euro, the yen and the pound sterling. The Canadian dollar is popular with central banks because of Canada's relative economic soundness, the Canadian government's strong sovereign position, and the stability of the country's legal and political systems
+                <form name="converter">
+                  <table border="0">
+                    <tr>
+                      <td>British Pound:</td>
+                      <td><input type="text" name="pound" onChange="poundConverter()" /></td>
+                    </tr>
+                    <tr>
+                      <td>Canadian Dollar: </td>
+                      <td><input type="text" name="cad" onChange="cadConverter()" /></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" align="center"><input type="button" value="Convert!" /></td>
+                    </tr>
+                  </table>
+                </form>
+              </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer-distributed">
+
+        <div class="footer-right">
+
+          <div id="time"></div>
+
+        </div>
+
+        <div class="footer-left">
+
+          <p class="footer-links">
+            <a href="../home.html">Home</a> ·
+            <a href="../japan.html">Japan</a> ·
+            <a href="../canada.html">Canada</a> ·
+            <a href="../slovenia.html">Slovenia</a>
+          </p>
+
+          <p>Orkux &copy; 2017</p>
+        </div>
+
+      </footer>
+    </div>
+
+
+    <script src="../js/customcanada.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+  </body>
+
+
+</hmtl>
